@@ -1,0 +1,30 @@
+.menu-minimalista {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    
+  }
+  
+  .menu-minimalista li a {
+    text-decoration: none;
+    color: #666;
+    padding: 5px 10px;
+    position: relative;
+  }
+  
+  .menu-minimalista li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #000;
+    left: 50%;
+    bottom: -5px;
+    transition: width 0.2s ease, left 0.2s ease;
+  }
+  
+  .menu-minimalista li a:hover::after {
+    width: 100%;
+    left: 0;
+  }

@@ -1,0 +1,27 @@
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .navegacion .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navegacion .menu ul li {
+    margin: 0 10px;
+  }
+  
+  .navegacion .menu ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navegacion .logo img {
+    height: 50px; /* Ajusta esto según el tamaño de tu imagen */
+  }

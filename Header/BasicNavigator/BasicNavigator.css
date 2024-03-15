@@ -1,0 +1,39 @@
+.header-claro {
+  background-color: #314150;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-claro .logo {
+  width: 100px; 
+}
+
+.menu-principal {
+  list-style: none;
+  display: flex;
+}
+
+.menu-principal li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.menu-principal li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #696464;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.menu-principal li:hover .submenu {
+  display: block;
+}
